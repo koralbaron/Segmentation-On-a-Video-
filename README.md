@@ -21,7 +21,13 @@ Here is an exsample of the script usage with some arguments
 python get_masks_of_video.py --masks --model_path /home/soul/PreWorkProject/vistr/vistr_r101.pth --img_path /home/soul/PreWorkProject/rawFrames --ann_path /home/soul/PreWorkProject/vistr/data/annotations/input.json --mp4_clip_path 20201025_172452_II_clip.mp4
 ```
 ### Useful Arguments
-* ```--masks```
-* ```--model_path``` - path for the pretrained model (you can download the model from [VisTR repo](https://github.com/Epiphqny/VisTR)
-* ```--img_path``` - path for the raw frames of the video (the script will save the images there)
-* 
+* ```--masks``` - Train segmentation head if the flag is provided
+* ```--model_path``` - Path for the pretrained model (you can download the model from [VisTR repo](https://github.com/Epiphqny/VisTR)
+* ```--img_path``` - Path where to save the raw frames of the video (the script will save the images there)
+* ```ann_path``` - Path where to save the input.json that the script builds.
+* ```mp4_clip_path``` - path for the mp4 video clip input for the script.
+* ```--save_path``` - Path path where to save the result.json file.
+* ```--backbone``` - Name of the convolutional backbone to use.
+* ```--threshold``` - Threshold for object prediction.
+* ```masks_color``` - True - different color for deferent class. False - masks are only white.
+* ```--clean``` - Remove old data from masks_results_path.
