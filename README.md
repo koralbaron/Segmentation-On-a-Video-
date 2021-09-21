@@ -21,5 +21,7 @@ Here is an exsample of the script usage with some arguments
 python get_masks_of_video.py --masks --model_path /home/soul/PreWorkProject/vistr/vistr_r101.pth --img_path /home/soul/PreWorkProject/rawFrames --ann_path /home/soul/PreWorkProject/vistr/data/annotations/input.json --mp4_clip_path 20201025_172452_II_clip.mp4
 ```
 ### Useful Arguments
-* --masks
-* --model_path - path for the pretrained model (you can download the model )
+* ```--masks```
+* ```--model_path``` - path for the pretrained model (you can download the model from [VisTR repo](https://github.com/Epiphqny/VisTR)
+* ```--img_path``` - path for the raw frames of the video (the script will save the images there)
+* 
