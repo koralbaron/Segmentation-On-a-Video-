@@ -31,3 +31,4 @@ python get_masks_of_video.py --masks --model_path /home/soul/PreWorkProject/vist
 * ```--threshold``` - Threshold for object prediction.
 * ```masks_color``` - True - different color for deferent class. False - masks are only white.
 * ```--clean``` - Remove old data from masks_results_path.
+** For more additional argumets refer to inference.py on [VisTR repo](https://github.com/Epiphqny/VisTR) **
