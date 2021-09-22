@@ -41,4 +41,4 @@ python get_masks_of_video.py --masks --model_path /home/soul/PreWorkProject/vist
 ### Exsamples
 A video clip that made from the segmentation results of the script with a horse riding video as input.
 
-<img src="HorseRiding(1).gif" width="800" height="400" />
+<img src="HorseRiding(1).gif" width="700" height="400" />
