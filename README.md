@@ -2,7 +2,11 @@
 ## Description
 A script to preform a segmentation on a given video - a mask per frame of the video.
 This code uses [VisTR repo](https://github.com/Epiphqny/VisTR): End-to-End Video Instance Segmentation with Transformers, for getting the masks of the video.
+The code can handle videos that contains up to 10 instances and represent semantic segmentation (a semantic colored mask per frame of the video) or regular black and white mask per frame of the video.
 
+**Input:** MP4 video clip.
+**Output:** Segmentation results - mask per frame of the video.
+ 
 ## Installation
 For this script to work properly, you need an Nvidia GPU. 
 
@@ -34,4 +38,7 @@ python get_masks_of_video.py --masks --model_path /home/soul/PreWorkProject/vist
 
 **For more additional argumets refer to inference.py on [VisTR repo](https://github.com/Epiphqny/VisTR)**
 
+### Exsamples
+A video clip that made from the segmentation results of the script with a horse riding video as input.
 
+![](horseRiding.mp4)
