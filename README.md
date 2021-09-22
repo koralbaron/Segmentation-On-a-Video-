@@ -1,4 +1,4 @@
-# Segmentation On a Video
+# Segmentation-On-a-Video
 ## Description
 A script to preform a segmentation on a given video - a mask per frame of the video.
 This code uses [VisTR repo](https://github.com/Epiphqny/VisTR): End-to-End Video Instance Segmentation with Transformers, for getting the masks of the video.
