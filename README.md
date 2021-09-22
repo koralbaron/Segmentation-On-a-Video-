@@ -44,4 +44,4 @@ A video clip that made from the segmentation results of the script with a horse 
 
 Link for the Original video clip: [Horse Galloping in Slow Motion](https://www.youtube.com/watch?v=MvhRgJ9-7Rk), all credits for the original video goes to their channel.
 
-<img src="HorseRiding(1).gif" width="30%" height="400" />
+<img src="HorseRiding(1).gif" width="70%" height="50%" />
