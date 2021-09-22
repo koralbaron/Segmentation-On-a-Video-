@@ -20,7 +20,7 @@ torch.cuda.empty_cache()
 ```
 ## Usage
 ### Interface
-Here is an exsample of the script usage with some arguments
+Here is an example of the script usage with some arguments
 ```
 python get_masks_of_video.py --masks --model_path /home/soul/PreWorkProject/vistr/vistr_r101.pth --img_path /home/soul/PreWorkProject/rawFrames --ann_path /home/soul/PreWorkProject/vistr/data/annotations/input.json --mp4_clip_path 20201025_172452_II_clip.mp4
 ```
