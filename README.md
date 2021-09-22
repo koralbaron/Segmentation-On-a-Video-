@@ -38,7 +38,10 @@ python get_masks_of_video.py --masks --model_path /home/soul/PreWorkProject/vist
 
 **For more additional argumets refer to inference.py on [VisTR repo](https://github.com/Epiphqny/VisTR)**
 
-## Exsamples
+## Examples
+### Horse Riding - Segmentation clip VS Original clip
 A video clip that made from the segmentation results of the script with a horse riding video as input.
+
+Link for the Original video clip: [Horse Galloping in Slow Motion](https://www.youtube.com/watch?v=MvhRgJ9-7Rk), all credits for the original video goes to their channel.
 
 <img src="HorseRiding(1).gif" width="700" height="400" />
