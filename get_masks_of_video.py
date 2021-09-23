@@ -154,9 +154,9 @@ def catAndSaveImgMask(fileName, masksList2, masksResultsPath, masksColor):
     return fileName
 
 # decodes the results and saves the img masks in a folder 
-def decodeResult(masksResultsPath, threshold, masksColor):
+def decodeResult(masksResultsPath, savePath, threshold, masksColor):
     print("Decoding Result...")
-    with open("results.json","r") as jsonFile:
+    with open(savePath,"r") as jsonFile:
         data = json.load(jsonFile)
     fileName = 0 # fileName - for setting image file name to be index
     masksList = []
@@ -198,7 +198,7 @@ def main(args):
     splitVideoToFrames(vidCap, args.img_path)
     createJson(vidCap, args.img_path, args.ann_path)
     getModelResult(args)
-    decodeResult(args.masks_results_path, args.threshold, args.masks_color)
+    decodeResult(args.masks_results_path, args.save_path, args.threshold, args.masks_color)
 
 if __name__== "__main__":
     parser = inference.get_args_parser()# Atention: more args can be found ion inference.py
