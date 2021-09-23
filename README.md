@@ -10,7 +10,7 @@ The code can handle videos that contains up to 10 instances and represent semant
 ## Installation
 For this script to work properly, you need an Nvidia GPU. 
 
-Next download and compile the code from [VisTR repo](https://github.com/Epiphqny/VisTR) by following the Istructions on thier repo.
+Next download and compile the code from [VisTR repo](https://github.com/Epiphqny/VisTR) by following the Istructions on their repo.
 
 Then, download this repo's script and place it on the 'vistr' folder.
 
