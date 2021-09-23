@@ -108,7 +108,6 @@ def createJson(vidCap, imgPath, inputJsonPath):
     for filename in sorted(fileNamesList, key=lambda x: int(x.split(".")[0])):
         if framesCounter <= 35:
             data['videos'][index]['file_names'].append(filename)
-            framesCounter +=1
         else:# new index of every 36 frames
             data['videos'][index]['length'] = 36
             framesCounter = 0
@@ -116,6 +115,7 @@ def createJson(vidCap, imgPath, inputJsonPath):
             vidDict = createVidDict(index+1, width, height)
             data['videos'].append(vidDict)
             data['videos'][index]['file_names'].append(filename)
+        framesCounter +=1
     data['videos'][-1]['length'] = len(data['videos'][-1]['file_names'])
 
     with open(inputJsonPath, 'w', encoding='utf-8') as jsonFile:
