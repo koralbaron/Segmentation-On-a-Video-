@@ -34,7 +34,7 @@ torch.cuda.empty_cache()
 * ```--save_path``` - Path path where to save the result.json file.
 * ```--backbone``` - Name of the convolutional backbone to use.
 * ```--threshold``` - Threshold for object prediction.
-* ```masks_color``` - True - different color for deferent class. False - masks are only white.
+* ```masks_color``` - Different color for different class.
 * ```--clean``` - Remove old data from masks_results_path.
 
 **For more additional argumets refer to inference.py on [VisTR repo](https://github.com/Epiphqny/VisTR)**
