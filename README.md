@@ -29,12 +29,12 @@ torch.cuda.empty_cache()
 * ```--masks``` - Train segmentation head if the flag is provided
 * ```--model_path``` - Path for the pretrained model (you can download the model from [VisTR repo](https://github.com/Epiphqny/VisTR)
 * ```--img_path``` - Path where to save the raw frames of the video (the script will save the images there)
-* ```ann_path``` - Path where to save the input.json that the script builds.
-* ```mp4_clip_path``` - path for the mp4 video clip input for the script.
+* ```--ann_path``` - Path where to save the input.json that the script builds.
+* ```--mp4_clip_path``` - path for the mp4 video clip input for the script.
 * ```--save_path``` - Path path where to save the result.json file.
 * ```--backbone``` - Name of the convolutional backbone to use.
 * ```--threshold``` - Threshold for object prediction.
-* ```masks_color``` - Different color for different class.
+* ```--masks_color``` - Different color for different class.
 * ```--clean``` - Remove old data from masks_results_path.
 
 **For more additional argumets refer to inference.py on [VisTR repo](https://github.com/Epiphqny/VisTR)**
